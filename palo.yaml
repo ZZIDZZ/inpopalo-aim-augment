@@ -11,4 +11,4 @@ test:  # test images (optional)
 
 # Classes
 nc: 2  # number of classes
-names: [ 'head', 'body' ]  # class names
+names: [ 'head', 'body', 'feet']  # class names
