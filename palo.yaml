@@ -4,10 +4,10 @@
 # 3) list: [path/to/imgs1, path/to/imgs2, ..]
 
 # note: Dataset are not complete yet, so these might change later
-path: ./dataset  # dataset root dir
-train: ./trainval.txt  # train images (relative to 'path') 128 images
-val: ./trainval.txt  # val images (relative to 'path') 128 images
-test:  ./test.txt # test images (optional)
+path: ../dataset  # dataset root dir
+train: images/trainval  # train images (relative to 'path') 128 images
+val: images/trainval  # val images (relative to 'path') 128 images
+test:  images/test # test images (optional)
 
 # Classes
 nc: 3  # number of classes
