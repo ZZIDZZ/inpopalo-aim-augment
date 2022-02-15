@@ -1,4 +1,3 @@
-dataset/test/*
-!dataset/test/*[r]*
-dataset/train/*
-!dataset/train/*[r]*
+dataset/*
+!dataset/*[r]*
+!dataset/*.txt

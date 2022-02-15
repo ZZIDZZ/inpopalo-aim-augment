@@ -5,10 +5,10 @@
 
 # note: Dataset are not complete yet, so these might change later
 path: ./dataset  # dataset root dir
-train: ./dataset/train  # train images (relative to 'path') 128 images
-val: ./dataset/train  # val images (relative to 'path') 128 images
-test:  ./dataset/test # test images (optional)
+train: ./dataset/trainval.txt  # train images (relative to 'path') 128 images
+val: ./dataset/trainval.txt  # val images (relative to 'path') 128 images
+test:  ./dataset/test.txt # test images (optional)
 
 # Classes
-nc: 2  # number of classes
+nc: 3  # number of classes
 names: [ 'head', 'body', 'feet']  # class names
