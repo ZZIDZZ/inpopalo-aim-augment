@@ -1,1 +1,0 @@
-Training result with 4 batch and 6 epochs
