@@ -1,2 +1,4 @@
-dataset/*
-!dataset/*[r]*
+dataset/test/*
+!dataset/test/*[r]*
+dataset/train/*
+!dataset/train/*[r]*
