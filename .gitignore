@@ -2,5 +2,5 @@
 !dataset/*.txt
 *.mp4
 test*
-*/pycache*
-**/pycache*
+**/__pycache__/
+*.pyc
