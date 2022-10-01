@@ -1,8 +1,8 @@
-weights: yolov5s.pt
+weights: yolov5m.pt
 cfg: ''
-data: ../palo.yaml
-hyp: data/hyps/hyp.scratch.yaml
-epochs: 8
+data: ..\palo.yaml
+hyp: data\hyps\hyp.scratch.yaml
+epochs: 500
 batch_size: 4
 imgsz: 640
 rect: false
@@ -20,7 +20,7 @@ single_cls: false
 optimizer: SGD
 sync_bn: false
 workers: 8
-project: runs/train
+project: runs\train
 name: exp
 exist_ok: false
 quad: false
@@ -35,4 +35,4 @@ entity: null
 upload_dataset: false
 bbox_interval: -1
 artifact_alias: latest
-save_dir: runs/train/exp
+save_dir: runs\train\exp6

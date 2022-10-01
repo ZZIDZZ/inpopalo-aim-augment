@@ -1,3 +1,6 @@
 !dataset/*[r]*
 !dataset/*.txt
 *.mp4
+test*
+*/pycache*
+**/pycache*
